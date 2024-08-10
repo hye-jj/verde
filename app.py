@@ -106,6 +106,14 @@ with col3:
     st.write("")  # 오른쪽 빈 공간
 
 
+
+# 링크가 포함된 텍스트를 Markdown으로 작성
+st.markdown(
+    """<div style="text-align: center;">
+     <a href="https://www.instagram.com/vesverde?igsh=MW5hdHJucWN6dmx6bA%3D%3D&utm_source=qr" target="_blank ">instagram.com/vesverde</a>
+    </div><br><br>
+    """, unsafe_allow_html=True)
+
 img10 = Image.open("images/img10.jpg")
 img11 = Image.open("images/img11.jpg")
 img12 = Image.open("images/img12.jpg")
@@ -130,6 +138,7 @@ st.markdown(
 <div style="font-size:12px;">
 ✿ 아이폰 15pro<br><br>
 ✿ 당일 카톡 전송<br><br>
+✿ 예약 인스타그램 DM<br><br>
 ✿ 후기 작성시 디카로 5장 이상 찍어드리고, 감사카드를 만들어 드립니다.<br><br>
 ✿ 초상권 비동의시 얼굴을 제외한 모습이 게시될 수 있습니다.<br><br>
 ✿ 계약 후 예식 7일 전 유선상담, 당일 예식 1시간 전 도착입니다.<br><br>
@@ -157,7 +166,6 @@ with col1:
 with col2:
     st.markdown(
         """
-        <br><br><br><br><br><br><br><br>
         <div style="font-size:12px;">
         <b>Seoul, iPhone</b><br>
         We provide iPhone photography service.<br><br>
