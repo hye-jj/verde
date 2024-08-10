@@ -12,9 +12,8 @@ Streamlit으로 만든 간단한 소개 페이지
 👫 지금 바로 베르데 아이폰스냅과 함께 행복한 기억을!        
                
 <br> 
-<br>
+
 [![베르데 바로가기](https://img.shields.io/badge/베르데-바로가기-yellow)](https://www.instagram.com/vesverde?igsh=MW5hdHJucWN6dmx6bA%3D%3D&utm_source=qr)       
 
-<br>
-<br>                  
+<br>                
 <br>
