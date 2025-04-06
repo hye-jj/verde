@@ -17,7 +17,7 @@ col1, col2, col3 = st.columns([1, 2, 1])
 with col1:
     st.write("")  # 왼쪽 빈 공간
 with col2:
-    st.image(logo, use_column_width=True)  # 중앙 열에 이미지 배치
+    st.image(logo, use_container_width=True)  # 중앙 열에 이미지 배치
 with col3:
     st.write("")  # 오른쪽 빈 공간
 
@@ -50,11 +50,11 @@ img3_rotated_final = ImageOps.fit(img3_rotated, (target_width, target_height), m
 # 이미지를 중앙에 정렬하여 나열
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.image(new_img1_final, use_column_width=True)
+    st.image(new_img1_final, use_container_width=True)
 with col2:
-    st.image(img2, use_column_width=True)
+    st.image(img2, use_container_width=True)
 with col3:
-    st.image(img3_rotated_final, use_column_width=True)
+    st.image(img3_rotated_final, use_container_width=True)
 
 
 # 이미지 파일 불러오기
@@ -81,11 +81,11 @@ img6_cropped_final = ImageOps.pad(img6_cropped, (target_width, target_height), c
 # 이미지를 중앙에 정렬하여 나열
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.image(img4, use_column_width=True)
+    st.image(img4, use_container_width=True)
 with col2:
-    st.image(new_img5_final, use_column_width=True)
+    st.image(new_img5_final, use_container_width=True)
 with col3:
-    st.image(img6_cropped_final, use_column_width=True)
+    st.image(img6_cropped_final, use_container_width=True)
 
 insta = Image.open("images/insta.jpg")
 
@@ -101,7 +101,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.write("")  # 왼쪽 빈 공간
 with col2:
-    st.image(new_image, use_column_width=True)
+    st.image(new_image, use_container_width=True)
 with col3:
     st.write("")  # 오른쪽 빈 공간
 
@@ -120,11 +120,11 @@ img12 = Image.open("images/img12.jpg")
 
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.image(img10, use_column_width=True)
+    st.image(img10, use_container_width=True)
 with col2:
-    st.image(img11, use_column_width=True)
+    st.image(img11, use_container_width=True)
 with col3:
-    st.image(img12, use_column_width=True)
+    st.image(img12, use_container_width=True)
 
 st.write("\n")
 st.write("\n")
@@ -160,7 +160,7 @@ img8 = Image.open("images/img8.jpg")
 col1, col2 = st.columns([1, 2])  # 두 개의 열로 나누고, col2를 더 넓게 설정
 
 with col1:
-    st.image(img8, use_column_width=True)
+    st.image(img8, use_container_width=True)
 
 
 with col2:
